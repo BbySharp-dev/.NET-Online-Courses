@@ -1,12 +1,13 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace OnlineCourses.Core.Entities;
-
-public class Category : BaseEntity
+namespace OnlineCourses.Core.Entities
 {
-    [Required] public string Name { get; set; }
-    
-    //Navigations
-    public ICollection<Video> Videos { get; set; } 
+    public class Category : BaseEntity
+    {
+        [Required]
+        public string Name { get; set; }
+        // Navigations
+        public ICollection<Video> Videos { get; set; }
+    }
 }

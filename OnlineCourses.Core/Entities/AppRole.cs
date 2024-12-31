@@ -1,12 +1,8 @@
-using System;
-using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Identity;
 
-namespace OnlineCourses.Core.Entities;
-
-public class AppRole : IdentityRole<int>
+namespace OnlineCourses.Core.Entities
 {
-    [Required]
-    public string Name { get; set; }
-    public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
+    public class AppRole : IdentityRole<int>
+    {
+    }
 }
