@@ -1,4 +1,4 @@
-namespace OnlineCourses.Models;
+namespace OnlineCourses.ViewModels;
 
 public class ErrorViewModel
 {

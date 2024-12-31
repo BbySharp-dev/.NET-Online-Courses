@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCourses", "OnlineCourses\OnlineCourses.csproj", "{EFE350E6-0A5E-41C0-A329-3042039F3AAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCourses.Core", "OnlineCourses.Core\OnlineCourses.Core.csproj", "{749CEE5B-9932-4963-A26D-1B62E492FB87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCourses.DataAccess", "OnlineCourses.DataAccess\OnlineCourses.DataAccess.csproj", "{2AC3ADA6-C994-4B42-9135-C5B0A464511F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{EFE350E6-0A5E-41C0-A329-3042039F3AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFE350E6-0A5E-41C0-A329-3042039F3AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFE350E6-0A5E-41C0-A329-3042039F3AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749CEE5B-9932-4963-A26D-1B62E492FB87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749CEE5B-9932-4963-A26D-1B62E492FB87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749CEE5B-9932-4963-A26D-1B62E492FB87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749CEE5B-9932-4963-A26D-1B62E492FB87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AC3ADA6-C994-4B42-9135-C5B0A464511F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC3ADA6-C994-4B42-9135-C5B0A464511F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC3ADA6-C994-4B42-9135-C5B0A464511F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC3ADA6-C994-4B42-9135-C5B0A464511F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

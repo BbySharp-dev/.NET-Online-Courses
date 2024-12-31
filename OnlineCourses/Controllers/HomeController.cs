@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using OnlineCourses.Models;
+using OnlineCourses.ViewModels;
 
 namespace OnlineCourses.Controllers;
 

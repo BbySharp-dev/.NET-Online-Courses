@@ -10,4 +10,8 @@
       <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.7" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\OnlineCourses.DataAccess\OnlineCourses.DataAccess.csproj" />
+    </ItemGroup>
+
 </Project>
