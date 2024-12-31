@@ -18,8 +18,4 @@
       <ProjectReference Include="..\OnlineCourses.DataAccess\OnlineCourses.DataAccess.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Extensions\" />
-    </ItemGroup>
-
 </Project>
