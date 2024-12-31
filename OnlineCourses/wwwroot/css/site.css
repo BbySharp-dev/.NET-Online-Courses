@@ -20,3 +20,17 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.navbar-brand {
+  color: palegreen;
+  font-family: poppins, serif;
+  font-size: 1.5rem ;
+}
+
+.navbar-brand:hover {
+  color: palegreen;
+}
+
+.active {
+  color: darkorange !important;
+}
